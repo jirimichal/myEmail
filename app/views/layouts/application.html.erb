@@ -17,7 +17,8 @@
     <h1><a href="#">Galaxy Dash</a></h1>
 
     <h2>Your compelling tag line goes here</h2>
-    <img src="images/headerimg.jpg" width="940" height="200" alt=""><!-- header image -->
+
+    <%= image_tag "headerimg.jpg", size:"940x200" %>
   </header>
   <!-- end of header -->
 
@@ -49,7 +50,8 @@
       </ul>
 
       <h3>Sponsors</h3>
-      <img src="images/ad125.jpg" alt=""/><br/><img src="images/ad125.jpg" alt=""/><br/><br/>
+
+      <%= image_tag "ad125.jpg" %><br/><%= image_tag "ad125.jpg" %><br/><br/>
 
       <h3>Related Articles</h3>
       <ul>
@@ -69,9 +71,13 @@
 
     </aside>
     <!-- end of sidebar1 -->
+    <section id="content"><!-- #content -->
 
+      <%= yield %>
 
-    <%= yield %>
+    </section>
+    <!-- end of #content -->
+
     <aside id="sidebar2"><!-- sidebar2 -->
       <h3>Stuff</h3>
       <ul>
