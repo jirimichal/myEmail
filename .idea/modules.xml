@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/rails_projects/demo_app/.idea/demo_app.iml" filepath="$USER_HOME$/rails_projects/demo_app/.idea/demo_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/myEmail.iml" filepath="$PROJECT_DIR$/.idea/myEmail.iml" />
     </modules>
   </component>
